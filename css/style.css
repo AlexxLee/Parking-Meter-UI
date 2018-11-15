@@ -1,0 +1,169 @@
+body{
+  font-family: "New Time Roman";
+  font-size: 120%;
+  line-height: 1.5;
+  background-color: #b6b6b4;
+  min-height: 500px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.container1{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.screen{
+  float:left;
+  background-color: #e5e4e2;
+  height: 450px;
+  width: 300px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.physical_operation{
+  float:right;
+  background-color: white;
+  height: 450px;
+  width: 330px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.screen .time{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screen .time h1{
+  text-align: center;
+  font-size: 280%;
+}
+
+.screen .price{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screen .price h3{
+  text-align: center;
+  font-size: 110%;
+}
+
+.screen .parking{
+  margin-left: 87px;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.screen .refund{
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.button {
+  font-size: 120%;
+  text-decoration: none;
+  background-color: #98afc7;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  border-top: 2px solid #000080;
+  border-right: 2px solid #000080;
+  border-bottom: 2px solid #000080;
+  border-left: 2px solid #000080;
+}
+.button1 {
+  font-size: 60%;
+  text-decoration: none;
+  background-color: #98afc7;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  margin-left: 12px;
+  border-top: 2px solid #000080;
+  border-right: 2px solid #000080;
+  border-bottom: 2px solid #000080;
+  border-left: 2px solid #000080;
+}
+
+.physical_operation .po{
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.screen .payment{
+  float: right;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-right: 30px;
+}
+
+.screen .back{
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.screen .parkingtime{
+  margin-top: 60px;
+}
+.screen .parkingtime input{
+  width: 150px;
+  font-size: 100%;
+  padding: 2px;
+}
+
+.screen .back1{
+  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.screen .pay{
+  margin-top: 50px;
+}
+.screen .pay li{
+  margin-top: 10px;
+}
+
+.screen .backup input{
+  margin-left: 30px;
+  width: 200px;
+  height: 20px;
+  font-size: 100%;
+  padding: 2px;
+}
+.screen .backup table{
+  width:100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.screen .backup table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.screen .ticket table{
+  width:100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.screen .ticket table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.screen .ticket{
+  margin-top: 50px;
+}
